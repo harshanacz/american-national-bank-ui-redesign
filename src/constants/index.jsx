@@ -95,28 +95,27 @@ export const services = [
 ];
 
 
-
-//footer
+// footer
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+  { href: "#", text: "Online Banking" },
+  { href: "#", text: "Mobile Banking" },
+  { href: "#", text: "Security Tips" },
+  { href: "#", text: "FAQs" },
+  { href: "#", text: "Customer Support" },
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#", text: "Personal Banking" },
+  { href: "#", text: "Business Banking" },
+  { href: "#", text: "Credit Cards" },
+  { href: "#", text: "Loans" },
+  { href: "#", text: "Investment Services" },
 ];
 
 export const communityLinks = [
-  { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
+  { href: "#", text: "About Us" },
+  { href: "#", text: "Careers" },
+  { href: "#", text: "News & Media" },
+  { href: "#", text: "Community Involvement" },
+  { href: "#", text: "Contact Us" },
 ];

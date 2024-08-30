@@ -5,7 +5,8 @@ import FeatureSection from './components/FeatureSection'
 import OffersSection from './components/OffersSection'
 import ServicesSection from './components/ServicesSection'
 import OurMessageSection from './components/OurMessageSection'
-// import CarouselSection from './components/CarouselSection'
+import Footer from './components/Footer'
+import Carousel from './components/CarouselSection'
 
 
 const App = () => {
@@ -17,7 +18,8 @@ const App = () => {
     <ServicesSection />
     <FeatureSection />
     <OurMessageSection />
-    {/* <CarouselSection  /> */}
+    <Carousel />
+    <Footer/>
     </>
   )
 }

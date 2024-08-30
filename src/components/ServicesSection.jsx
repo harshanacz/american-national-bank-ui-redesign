@@ -16,7 +16,7 @@ const ServicesSection = () => {
             <div className='flex flex-wrap justify-center items-center'>
 
                 {services.map((service, index) => (
-                    <div key={index} className='w-full sm:w-1/2 md:w-1/2 lg:w-1/4  px-5 flex flex-col items-center hover:border hover:border-white hover:rounded-[10px] py-5 hover:cursor-pointer'>
+                    <div key={index} className='w-full sm:w-1/2 md:w-1/2 lg:w-1/4  px-5 flex flex-col items-center border border-transparent hover:border hover:border-white hover:rounded-[10px] py-5 hover:cursor-pointer'>
                         <div className='flex flex-col items-center justify-center'>
                             <div className="flex items-center justify-center h-12 w-12 text-white">
                                 {React.cloneElement(service.icon, { size: 35 })} {}
