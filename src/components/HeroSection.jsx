@@ -2,6 +2,7 @@ import React from 'react';
 import desktopBackground from '../assets/bg.png';
 import { ArrowRight } from "lucide-react";
 import './HeroSection.css';
+import AnimatedArrow from './AnimatedArrow';
 
 
 const HeroSection = () => {
@@ -24,13 +25,7 @@ const HeroSection = () => {
           <p className="text-lg lg:text-2xl mb-8 text-black">
             Your financial fresh start. Learn money basics and build smart habits, whether you're new to banking or seeking a reset.
           </p>
-          <a
-            href="#"
-            className="bg-blue-800 hover:bg-blue-700 text-white lg:text-2xl py-2.5 px-10 rounded-md inline-flex items-center space-x-2"
-          >
-            <span>Get started</span>
-            <ArrowRight className="w-7 h-7" /> { }
-          </a>
+          <AnimatedArrow  />
         </div>
       </div>
     </div>
